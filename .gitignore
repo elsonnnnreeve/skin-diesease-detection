@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / React
+node_modules/
+dist/
+
+# Model files
+saved_model/
+*.h5
+*.pb
+
+# Datasets
+datasets/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env
+.env
