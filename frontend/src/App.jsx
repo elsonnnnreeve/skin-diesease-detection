@@ -8,7 +8,7 @@ export default function App() {
       <header className="site-header">
         <div className="site-brand">
           <h1>AI Skin Disease Detection</h1>
-          <p className="tagline">Quick, explainable predictions from dermal images</p>
+          <p className="tagline">Explainable predictions — upload a dermal image to analyze</p>
         </div>
       </header>
 
@@ -17,7 +17,7 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
-        <small>Built for Major Project — AI-Based Skin Disease Detection</small>
+        <small>Major Project — AI-Based Skin Disease Detection</small>
       </footer>
     </div>
   );
