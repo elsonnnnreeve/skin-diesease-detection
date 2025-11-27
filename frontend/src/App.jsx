@@ -1,14 +1,24 @@
+import React from "react";
 import UploadForm from "./components/UploadForm";
+import "./index.css";
 
-function App() {
+export default function App() {
   return (
-    <div style={{ padding: 20, background: "#f6f7fb", minHeight: "100vh" }}>
-      <div style={{ maxWidth: 900, margin: "0 auto", background: "#fff", padding: 24, borderRadius: 8, boxShadow: "0 4px 12px rgba(0,0,0,0.06)" }}>
-        <h1 style={{ marginTop: 0 }}>Skin Disease Detection (Demo)</h1>
+    <div className="app-root">
+      <header className="site-header">
+        <div className="site-brand">
+          <h1>AI Skin Disease Detection</h1>
+          <p className="tagline">Quick, explainable predictions from dermal images</p>
+        </div>
+      </header>
+
+      <main className="main-container">
         <UploadForm />
-      </div>
+      </main>
+
+      <footer className="site-footer">
+        <small>Built for Major Project — AI-Based Skin Disease Detection</small>
+      </footer>
     </div>
   );
 }
-
-export default App;
